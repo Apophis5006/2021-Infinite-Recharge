@@ -1,0 +1,4 @@
+See file:///Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/build/tmp/linkFrcUserProgramDebugExecutable/output.txt for all output for linkFrcUserProgramDebugExecutable.
+linking frcUserProgram successful.
+
+Finished linkFrcUserProgramDebugExecutable, see full log file:///Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/build/tmp/linkFrcUserProgramDebugExecutable/output.txt.

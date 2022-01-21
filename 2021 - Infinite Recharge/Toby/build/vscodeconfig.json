@@ -1,0 +1,469 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/Aleksandr/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/Aleksandr/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+      "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e28cc5f6ba2d5810318548d67bb553ef/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6e5f611e5cad9a909f91c4c804873f6f/wpilibNewCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f5077d93c32f5c869d467bb5f19d9d1b/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e25c21a6ae7c05359faf1fafbfde8bf3/ntcore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/481aa6a825d1569cbdf1699c03379b93/hal-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5234b9c118dc53ae6e747131533850f6/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5de0fd179558da761852a43b58b5f722/wpimath-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e8abe00775971c94de64f99f74d3eb04/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/3742184051bddaf83205651aedd4e189/cscore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d5bd29158438a86b76f27441a59129f/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e28cc5f6ba2d5810318548d67bb553ef/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6e5f611e5cad9a909f91c4c804873f6f/wpilibNewCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f5077d93c32f5c869d467bb5f19d9d1b/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e25c21a6ae7c05359faf1fafbfde8bf3/ntcore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/481aa6a825d1569cbdf1699c03379b93/hal-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5234b9c118dc53ae6e747131533850f6/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5de0fd179558da761852a43b58b5f722/wpimath-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e8abe00775971c94de64f99f74d3eb04/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/3742184051bddaf83205651aedd4e189/cscore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d5bd29158438a86b76f27441a59129f/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+      "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+          "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/Aleksandr/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/Aleksandr/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+      "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e28cc5f6ba2d5810318548d67bb553ef/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6e5f611e5cad9a909f91c4c804873f6f/wpilibNewCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f5077d93c32f5c869d467bb5f19d9d1b/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e25c21a6ae7c05359faf1fafbfde8bf3/ntcore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/481aa6a825d1569cbdf1699c03379b93/hal-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5234b9c118dc53ae6e747131533850f6/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5de0fd179558da761852a43b58b5f722/wpimath-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e8abe00775971c94de64f99f74d3eb04/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/3742184051bddaf83205651aedd4e189/cscore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d5bd29158438a86b76f27441a59129f/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e28cc5f6ba2d5810318548d67bb553ef/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6e5f611e5cad9a909f91c4c804873f6f/wpilibNewCommands-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f5077d93c32f5c869d467bb5f19d9d1b/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e25c21a6ae7c05359faf1fafbfde8bf3/ntcore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/481aa6a825d1569cbdf1699c03379b93/hal-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5234b9c118dc53ae6e747131533850f6/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5de0fd179558da761852a43b58b5f722/wpimath-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/e8abe00775971c94de64f99f74d3eb04/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/3742184051bddaf83205651aedd4e189/cscore-cpp-2021.3.1-sources/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d5bd29158438a86b76f27441a59129f/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+      "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+      "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/cc9c3d02d1b2e7ef8391095874fdc420/wpiapi-cpp-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/bfc3751c03922e06abc06c0b95c613e8/api-cpp-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/54190b416b53344473251f3a8d27be59/cci-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3a4a6916e9c080df75180ae1f42160e/cci-sim-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/74738268e9460ea58f5a5b9bc26bd4d9/diagnostics-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/30f6d2680672343041e1ea5875cce814/canutils-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/b3ad6e38a184f69e083cdefd63630b6c/platform-sim-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/977beea1c21952acea9fd3c129e80aba/core-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/5fc9c7ed8812799c74547ae54e7e2b37/simTalonSRX-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/6939eff607c5945424cc580cb6ea91b5/simVictorSPX-5.19.4-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/d5b0b1ca13778cc730a864349c0e629e/wpilibOldCommands-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/fdaa8fdb28a83ed20c046fe235d0c71f/wpilibNewCommands-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/4d2ab6c835a3d0d6c07f784f1f069b94/adis16448-cpp-2020.r3-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/f156dad97f82d9d4c969ed3e42e5e5b8/wpilibc-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/504535f02c01c748ac509664866fa0f3/ntcore-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/68dfab591a432d40e1a50e9e724bb06c/hal-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/ce4d10e9fad52e45a2eae7ec80e42803/wpiutil-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/7644ee63d3ae376dc8363d3dd03abc43/wpimath-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/25a2694bc13ceaa38a44da6d881a6f2c/chipobject-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/2d10757a5852df09c2b61cceef7d86d3/netcomm-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/c40e31028beafb42deee4430911cae68/visa-2020.10.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/8bd42d643b3e0ea17daca7870a3704dc/cameraserver-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/42a63de66085f99464803884263180b2/cscore-cpp-2021.3.1-headers/",
+          "/Users/Aleksandr/.gradle/caches/transforms-2/files-2.1/042e60caa6a5440d94a6ec216f633805/opencv-cpp-3.4.7-5-headers/",
+          "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/Aleksandr/Documents/FRC/2021/Toby/Toby5006/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]

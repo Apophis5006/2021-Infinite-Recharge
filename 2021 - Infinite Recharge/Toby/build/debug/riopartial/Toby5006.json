@@ -1,0 +1,9 @@
+[
+  {
+    "artifact": "frcCpp (in project Toby5006)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  }
+]
